@@ -30,6 +30,7 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aleatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaListaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -37,7 +38,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aleatorioToolStripMenuItem});
+            this.aleatorioToolStripMenuItem,
+            this.busquedaListaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -47,8 +49,16 @@
             // aleatorioToolStripMenuItem
             // 
             this.aleatorioToolStripMenuItem.Name = "aleatorioToolStripMenuItem";
-            this.aleatorioToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
-            this.aleatorioToolStripMenuItem.Text = "Aleatorio";
+            this.aleatorioToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
+            this.aleatorioToolStripMenuItem.Text = "Busqueda Arreglo";
+            this.aleatorioToolStripMenuItem.Click += new System.EventHandler(this.aleatorioToolStripMenuItem_Click);
+            // 
+            // busquedaListaToolStripMenuItem
+            // 
+            this.busquedaListaToolStripMenuItem.Name = "busquedaListaToolStripMenuItem";
+            this.busquedaListaToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.busquedaListaToolStripMenuItem.Text = "Busqueda Lista";
+            this.busquedaListaToolStripMenuItem.Click += new System.EventHandler(this.busquedaListaToolStripMenuItem_Click);
             // 
             // INICIO
             // 
@@ -58,6 +68,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "INICIO";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "INICIO";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -70,5 +81,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aleatorioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaListaToolStripMenuItem;
     }
 }

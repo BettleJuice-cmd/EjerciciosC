@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusquedaArreglo.Formularios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,17 @@ namespace BusquedaArreglo
         public INICIO()
         {
             InitializeComponent();
+        }
+
+        private void aleatorioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            new Aleatorio().Show();
+        }
+
+        private void busquedaListaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaBinaria().Show();
         }
     }
 }

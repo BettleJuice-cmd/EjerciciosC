@@ -52,6 +52,12 @@
     <Compile Include="Formularios\Aleatorio.Designer.cs">
       <DependentUpon>Aleatorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\BusquedaBinaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\BusquedaBinaria.Designer.cs">
+      <DependentUpon>BusquedaBinaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="INICIO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Aleatorio.resx">
       <DependentUpon>Aleatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\BusquedaBinaria.resx">
+      <DependentUpon>BusquedaBinaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="INICIO.resx">
       <DependentUpon>INICIO.cs</DependentUpon>
