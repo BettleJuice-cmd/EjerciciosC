@@ -28,5 +28,10 @@ namespace BusquedaArreglo
         {
             new BusquedaBinaria().Show();
         }
+
+        private void busquedaDeTextoiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaTexto().Show();
+        }
     }
 }

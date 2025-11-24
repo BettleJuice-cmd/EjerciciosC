@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aleatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaListaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaDeTextoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,7 +40,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aleatorioToolStripMenuItem,
-            this.busquedaListaToolStripMenuItem});
+            this.busquedaListaToolStripMenuItem,
+            this.busquedaDeTextoiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -59,6 +61,13 @@
             this.busquedaListaToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.busquedaListaToolStripMenuItem.Text = "Busqueda Lista";
             this.busquedaListaToolStripMenuItem.Click += new System.EventHandler(this.busquedaListaToolStripMenuItem_Click);
+            // 
+            // busquedaDeTextoiToolStripMenuItem
+            // 
+            this.busquedaDeTextoiToolStripMenuItem.Name = "busquedaDeTextoiToolStripMenuItem";
+            this.busquedaDeTextoiToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
+            this.busquedaDeTextoiToolStripMenuItem.Text = "Busqueda de Texto";
+            this.busquedaDeTextoiToolStripMenuItem.Click += new System.EventHandler(this.busquedaDeTextoiToolStripMenuItem_Click);
             // 
             // INICIO
             // 
@@ -82,5 +91,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aleatorioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaListaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaDeTextoiToolStripMenuItem;
     }
 }
