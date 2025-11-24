@@ -33,6 +33,7 @@
             this.busquedaListaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaDeTextoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaEstudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.recorrerListaDeEnterosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,10 +44,11 @@
             this.aleatorioToolStripMenuItem,
             this.busquedaListaToolStripMenuItem,
             this.busquedaDeTextoiToolStripMenuItem,
-            this.busquedaEstudianteToolStripMenuItem});
+            this.busquedaEstudianteToolStripMenuItem,
+            this.recorrerListaDeEnterosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(959, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -78,11 +80,18 @@
             this.busquedaEstudianteToolStripMenuItem.Text = "Busqueda Estudiante";
             this.busquedaEstudianteToolStripMenuItem.Click += new System.EventHandler(this.busquedaEstudianteToolStripMenuItem_Click);
             // 
+            // recorrerListaDeEnterosToolStripMenuItem
+            // 
+            this.recorrerListaDeEnterosToolStripMenuItem.Name = "recorrerListaDeEnterosToolStripMenuItem";
+            this.recorrerListaDeEnterosToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
+            this.recorrerListaDeEnterosToolStripMenuItem.Text = "Recorrer lista de Enteros";
+            this.recorrerListaDeEnterosToolStripMenuItem.Click += new System.EventHandler(this.recorrerListaDeEnterosToolStripMenuItem_Click);
+            // 
             // INICIO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(959, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "INICIO";
@@ -102,5 +111,6 @@
         private System.Windows.Forms.ToolStripMenuItem busquedaListaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaDeTextoiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaEstudianteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem recorrerListaDeEnterosToolStripMenuItem;
     }
 }

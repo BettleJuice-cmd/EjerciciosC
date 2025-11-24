@@ -43,7 +43,7 @@
             this.tbParrafo.Location = new System.Drawing.Point(203, 64);
             this.tbParrafo.Name = "tbParrafo";
             this.tbParrafo.Size = new System.Drawing.Size(100, 22);
-            this.tbParrafo.TabIndex = 0;
+            this.tbParrafo.TabIndex = 2;
             // 
             // lblParrafo
             // 
@@ -51,7 +51,7 @@
             this.lblParrafo.Location = new System.Drawing.Point(30, 178);
             this.lblParrafo.Name = "lblParrafo";
             this.lblParrafo.Size = new System.Drawing.Size(426, 153);
-            this.lblParrafo.TabIndex = 3;
+            this.lblParrafo.TabIndex = 7;
             this.lblParrafo.Click += new System.EventHandler(this.label1_Click);
             // 
             // label1
@@ -60,7 +60,7 @@
             this.label1.Location = new System.Drawing.Point(27, 67);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(129, 16);
-            this.label1.TabIndex = 4;
+            this.label1.TabIndex = 1;
             this.label1.Text = "Ingrese el texto aquí:";
             // 
             // label2
@@ -69,7 +69,7 @@
             this.label2.Location = new System.Drawing.Point(27, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 16);
-            this.label2.TabIndex = 5;
+            this.label2.TabIndex = 4;
             this.label2.Text = "Palabra que desea buscar:";
             // 
             // tbPalabra
@@ -77,14 +77,14 @@
             this.tbPalabra.Location = new System.Drawing.Point(203, 114);
             this.tbPalabra.Name = "tbPalabra";
             this.tbPalabra.Size = new System.Drawing.Size(100, 22);
-            this.tbPalabra.TabIndex = 6;
+            this.tbPalabra.TabIndex = 5;
             // 
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(358, 112);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(109, 27);
-            this.btnBuscar.TabIndex = 7;
+            this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -94,7 +94,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(358, 62);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(109, 27);
-            this.btnAgregar.TabIndex = 8;
+            this.btnAgregar.TabIndex = 3;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
@@ -104,7 +104,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(339, 334);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(117, 41);
-            this.btnLimpiar.TabIndex = 9;
+            this.btnLimpiar.TabIndex = 8;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);

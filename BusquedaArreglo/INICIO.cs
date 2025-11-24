@@ -38,5 +38,10 @@ namespace BusquedaArreglo
         {
             new BusquedaEstudiante().Show();
         }
+
+        private void recorrerListaDeEnterosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new RecorrerEnteros().Show();
+        }
     }
 }

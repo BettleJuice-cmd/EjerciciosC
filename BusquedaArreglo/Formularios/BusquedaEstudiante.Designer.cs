@@ -80,7 +80,7 @@
             this.btnAgregar.Location = new System.Drawing.Point(631, 55);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(112, 23);
-            this.btnAgregar.TabIndex = 4;
+            this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -92,7 +92,7 @@
             this.lbEstudiantes.Location = new System.Drawing.Point(29, 126);
             this.lbEstudiantes.Name = "lbEstudiantes";
             this.lbEstudiantes.Size = new System.Drawing.Size(714, 180);
-            this.lbEstudiantes.TabIndex = 5;
+            this.lbEstudiantes.TabIndex = 6;
             // 
             // label3
             // 
@@ -100,7 +100,7 @@
             this.label3.Location = new System.Drawing.Point(26, 320);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(205, 16);
-            this.label3.TabIndex = 6;
+            this.label3.TabIndex = 7;
             this.label3.Text = "Encontrar Estudiante por nombre:";
             // 
             // tbBuscarNombre
@@ -108,7 +108,7 @@
             this.tbBuscarNombre.Location = new System.Drawing.Point(237, 317);
             this.tbBuscarNombre.Name = "tbBuscarNombre";
             this.tbBuscarNombre.Size = new System.Drawing.Size(274, 22);
-            this.tbBuscarNombre.TabIndex = 7;
+            this.tbBuscarNombre.TabIndex = 8;
             // 
             // label4
             // 
@@ -116,7 +116,7 @@
             this.label4.Location = new System.Drawing.Point(515, 80);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 16);
-            this.label4.TabIndex = 8;
+            this.label4.TabIndex = 4;
             this.label4.Text = "Id: 000";
             // 
             // label5
@@ -125,7 +125,7 @@
             this.label5.Location = new System.Drawing.Point(26, 358);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(172, 16);
-            this.label5.TabIndex = 9;
+            this.label5.TabIndex = 10;
             this.label5.Text = "Encontrar Estudiante por ID:";
             // 
             // tbBuscarId
@@ -133,14 +133,14 @@
             this.tbBuscarId.Location = new System.Drawing.Point(237, 355);
             this.tbBuscarId.Name = "tbBuscarId";
             this.tbBuscarId.Size = new System.Drawing.Size(100, 22);
-            this.tbBuscarId.TabIndex = 10;
+            this.tbBuscarId.TabIndex = 11;
             // 
             // btnId
             // 
             this.btnId.Location = new System.Drawing.Point(648, 351);
             this.btnId.Name = "btnId";
             this.btnId.Size = new System.Drawing.Size(95, 23);
-            this.btnId.TabIndex = 11;
+            this.btnId.TabIndex = 12;
             this.btnId.Text = "BUSCAR";
             this.btnId.UseVisualStyleBackColor = true;
             this.btnId.Click += new System.EventHandler(this.btnId_Click);
@@ -150,7 +150,7 @@
             this.btnNombre.Location = new System.Drawing.Point(648, 313);
             this.btnNombre.Name = "btnNombre";
             this.btnNombre.Size = new System.Drawing.Size(95, 23);
-            this.btnNombre.TabIndex = 12;
+            this.btnNombre.TabIndex = 9;
             this.btnNombre.Text = "BUSCAR";
             this.btnNombre.UseVisualStyleBackColor = true;
             this.btnNombre.Click += new System.EventHandler(this.btnNombre_Click);

@@ -47,7 +47,7 @@
             this.btnCrear.Location = new System.Drawing.Point(171, 170);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(120, 34);
-            this.btnCrear.TabIndex = 1;
+            this.btnCrear.TabIndex = 2;
             this.btnCrear.Text = "CREAR LISTA";
             this.btnCrear.UseVisualStyleBackColor = true;
             this.btnCrear.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -59,14 +59,14 @@
             this.lbNumeros.Location = new System.Drawing.Point(52, 273);
             this.lbNumeros.Name = "lbNumeros";
             this.lbNumeros.Size = new System.Drawing.Size(363, 164);
-            this.lbNumeros.TabIndex = 2;
+            this.lbNumeros.TabIndex = 3;
             // 
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(180, 102);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(100, 45);
-            this.btnBuscar.TabIndex = 3;
+            this.btnBuscar.TabIndex = 1;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click_1);

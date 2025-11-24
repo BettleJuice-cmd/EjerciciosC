@@ -38,10 +38,7 @@ namespace BusquedaArreglo
         {
             
 
-            for (int i = 0; i < arreglo.Length; i++)
-            {
-                arreglo[i] = aleatorio.Next(1, 101);
-            }
+            
             int.TryParse(tbNumero.Text, out int number);
             bool numeroEncontrado = false;
 
@@ -61,16 +58,36 @@ namespace BusquedaArreglo
            
             if(numeroEncontrado == true)
             {
-                MessageBox.Show("NUMERO ENCONTRADO");
+                MessageBox.Show("NUMERO ENCONTRADO","HEY!!!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("El numero no fue encontrado");
+                MessageBox.Show("El numero no fue encontrado", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             tbNumero.Clear();
             tbNumero.Focus();
 
+        }
+
+        private void btnCrear_Click(object sender, EventArgs e)
+        {
+            lbNumeros.Items.Clear();
+            for (int i = 0; i < arreglo.Length; i++)
+            {
+                arreglo[i] = aleatorio.Next(1, 101);
+            }
+
+            foreach(int i in arreglo)
+            {
+                lbNumeros.Items.Add($"-{i}");
+            }
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            lbNumeros.Items.Clear();
         }
     }
 }

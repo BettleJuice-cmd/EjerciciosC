@@ -70,6 +70,12 @@
     <Compile Include="Formularios\BusquedaTexto.Designer.cs">
       <DependentUpon>BusquedaTexto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\RecorrerEnteros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\RecorrerEnteros.Designer.cs">
+      <DependentUpon>RecorrerEnteros.cs</DependentUpon>
+    </Compile>
     <Compile Include="INICIO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\BusquedaTexto.resx">
       <DependentUpon>BusquedaTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\RecorrerEnteros.resx">
+      <DependentUpon>RecorrerEnteros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="INICIO.resx">
       <DependentUpon>INICIO.cs</DependentUpon>
