@@ -32,6 +32,7 @@
             this.aleatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaListaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaDeTextoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaEstudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +42,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aleatorioToolStripMenuItem,
             this.busquedaListaToolStripMenuItem,
-            this.busquedaDeTextoiToolStripMenuItem});
+            this.busquedaDeTextoiToolStripMenuItem,
+            this.busquedaEstudianteToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -69,6 +71,13 @@
             this.busquedaDeTextoiToolStripMenuItem.Text = "Busqueda de Texto";
             this.busquedaDeTextoiToolStripMenuItem.Click += new System.EventHandler(this.busquedaDeTextoiToolStripMenuItem_Click);
             // 
+            // busquedaEstudianteToolStripMenuItem
+            // 
+            this.busquedaEstudianteToolStripMenuItem.Name = "busquedaEstudianteToolStripMenuItem";
+            this.busquedaEstudianteToolStripMenuItem.Size = new System.Drawing.Size(161, 24);
+            this.busquedaEstudianteToolStripMenuItem.Text = "Busqueda Estudiante";
+            this.busquedaEstudianteToolStripMenuItem.Click += new System.EventHandler(this.busquedaEstudianteToolStripMenuItem_Click);
+            // 
             // INICIO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -92,5 +101,6 @@
         private System.Windows.Forms.ToolStripMenuItem aleatorioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaListaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaDeTextoiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaEstudianteToolStripMenuItem;
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="Formularios\BusquedaBinaria.Designer.cs">
       <DependentUpon>BusquedaBinaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\BusquedaEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\BusquedaEstudiante.Designer.cs">
+      <DependentUpon>BusquedaEstudiante.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\BusquedaTexto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,7 @@
     <Compile Include="INICIO.Designer.cs">
       <DependentUpon>INICIO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modelos\Estudiante.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Aleatorio.resx">
@@ -77,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\BusquedaBinaria.resx">
       <DependentUpon>BusquedaBinaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\BusquedaEstudiante.resx">
+      <DependentUpon>BusquedaEstudiante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\BusquedaTexto.resx">
       <DependentUpon>BusquedaTexto.cs</DependentUpon>
@@ -106,8 +116,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Modelos\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

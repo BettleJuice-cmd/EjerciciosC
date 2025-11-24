@@ -33,5 +33,10 @@ namespace BusquedaArreglo
         {
             new BusquedaTexto().Show();
         }
+
+        private void busquedaEstudianteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BusquedaEstudiante().Show();
+        }
     }
 }
