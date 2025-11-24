@@ -70,6 +70,12 @@
     <Compile Include="Formularios\BusquedaTexto.Designer.cs">
       <DependentUpon>BusquedaTexto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Matriz2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Matriz2D.Designer.cs">
+      <DependentUpon>Matriz2D.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\RecorrerEnteros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\BusquedaTexto.resx">
       <DependentUpon>BusquedaTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Matriz2D.resx">
+      <DependentUpon>Matriz2D.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\RecorrerEnteros.resx">
       <DependentUpon>RecorrerEnteros.cs</DependentUpon>

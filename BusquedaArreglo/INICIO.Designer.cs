@@ -34,6 +34,7 @@
             this.busquedaDeTextoiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaEstudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recorrerListaDeEnterosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.matriz2DToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,8 @@
             this.busquedaListaToolStripMenuItem,
             this.busquedaDeTextoiToolStripMenuItem,
             this.busquedaEstudianteToolStripMenuItem,
-            this.recorrerListaDeEnterosToolStripMenuItem});
+            this.recorrerListaDeEnterosToolStripMenuItem,
+            this.matriz2DToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(959, 28);
@@ -87,6 +89,13 @@
             this.recorrerListaDeEnterosToolStripMenuItem.Text = "Recorrer lista de Enteros";
             this.recorrerListaDeEnterosToolStripMenuItem.Click += new System.EventHandler(this.recorrerListaDeEnterosToolStripMenuItem_Click);
             // 
+            // matriz2DToolStripMenuItem
+            // 
+            this.matriz2DToolStripMenuItem.Name = "matriz2DToolStripMenuItem";
+            this.matriz2DToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
+            this.matriz2DToolStripMenuItem.Text = "Matriz 2D";
+            this.matriz2DToolStripMenuItem.Click += new System.EventHandler(this.matriz2DToolStripMenuItem_Click);
+            // 
             // INICIO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -112,5 +121,6 @@
         private System.Windows.Forms.ToolStripMenuItem busquedaDeTextoiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaEstudianteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem recorrerListaDeEnterosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem matriz2DToolStripMenuItem;
     }
 }

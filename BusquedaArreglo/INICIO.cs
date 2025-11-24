@@ -43,5 +43,10 @@ namespace BusquedaArreglo
         {
             new RecorrerEnteros().Show();
         }
+
+        private void matriz2DToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Matriz2D().Show();
+        }
     }
 }
